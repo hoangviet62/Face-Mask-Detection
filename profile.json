@@ -1,0 +1,29 @@
+{
+  "AppName": "face-mask",
+  "Description": "",
+  "RequireHardware": {
+    "CPU": "1",
+    "Mem": "2Gi"
+  },
+  "RequireProcessor": ["CPU"],
+  "KubernetesConfig": {
+    "ports": ["containerPort"]
+  },
+  "RequireServices": [],
+  "RequireDevices": [],
+  "SharedLibs": [],
+  "AppConfig": ["repo_url"],
+  "ServiceConfig": [],
+  "Input": [
+    {
+      "Id": 1,
+      "Name": "RTSP_LINK",
+      "Description": "",
+      "Service": "face-mask",
+      "Params": {
+        "RTSP_LINK": "rtsp://skylab:c*1jJcSGsY@118.69.182.178:554"
+      }
+    }
+  ],
+  "Output": []
+}

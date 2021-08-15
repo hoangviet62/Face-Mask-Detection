@@ -1,0 +1,25 @@
+{
+  "label": "Face Mask",
+  "info": "Face Mask",
+  "nodes": [
+    {
+      "id": "3e531d71.83eb62",
+      "type": "face-mask",
+      "name": "face-mask",
+      "ports_containerPort": "5000",
+      "repo_url": "registry.innogr.am/face-mask:0.0.1",
+      "node_selector": "2474f78c.054dd8",
+      "x": 500,
+      "y": 60,
+      "wires": []
+    }
+  ],
+  "configs": [
+    {
+      "id": "2474f78c.054dd8",
+      "type": "k8s-node-config",
+      "label_key": "deviceId",
+      "label_value": "3cce1c12c045918e"
+    }
+  ]
+}
